@@ -1,0 +1,7 @@
+Project(Proprocess)
+find_package( OpenCV REQUIRED )
+AUX_SOURCE_DIRECTORY("./src" DIR_SRCS)
+SET(PROPROCESS ${DIR_SRCS})
+ADD_EXECUTABLE(${PROJECT_NAME} ${DIR_SRCS})
+target_link_libraries( ${PROJECT_NAME} ${OpenCV_LIBS} )
+add_definitions(-std=c++11)
