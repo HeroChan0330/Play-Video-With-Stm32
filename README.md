@@ -91,3 +91,5 @@ __attribute__((packed)) struct WavHead{
 <div align="center">
 <video src="img/final.mp4" width="640" height="360" controls="controls"></video>
 </div>
+
+[视频链接](img/final.mp4)
