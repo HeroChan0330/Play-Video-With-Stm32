@@ -89,6 +89,5 @@ __attribute__((packed)) struct WavHead{
 使用运放的话输出电流还是挺小的，作者手上暂时只有一个蜂鸣器，全损音质，几乎听不出那句熟悉的鸡你太美，不过这个思路应该是对的，这个电流应该是可以驱动一个耳机（应该还要加个滤波电容，这得结合耳机阻抗）。如果想要实现广场舞那种震撼感，自行实现放大电路吧。  
 最后，献上视频（声音是另外录后期加上去的）：  
 <div align="center">
-<video id="video" width="640" height="360" controls="" preload="none" poster="img/7.jpg">
-<source id="mp4" src="img/final.mp4" type="video/mp4">
-</video></div>
+<video src="img/final.mp4" width="640" height="360" controls="controls"></video>
+</div>
